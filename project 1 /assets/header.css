@@ -1,0 +1,40 @@
+/*header*/
+
+#navbar {
+  transition: top 0.3s;
+  position: fixed;
+  width: 100%;
+  height: 77px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glass-panel {
+    /* https://fb.watch/eO8ZultViZ/ */
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+}
+
+.first {
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.first h1 {
+  font-size: var(--fz5-font-size);
+  line-height: var(--fz2-font-size);
+  color: rgb(255, 121, 121);
+}
+.link {
+  display: flex;
+  flex: 4;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.link a {
+  text-decoration: none;
+}
